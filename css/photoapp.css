@@ -1,0 +1,211 @@
+body {
+    padding-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+                                       /*-------------Navbar section-------------*/
+
+/*------Navbar------*/
+.navbar {
+    background-color: rgb(250, 250, 246);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: lightgoldenrodyellow;
+    z-index: 5;
+    text-align: center;
+}
+
+/*------Brand Name-------*/
+.navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color:peru;
+}
+
+/*------form section------*/
+.form-inline {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-inline input {
+    border-color: rosybrown;
+    border-width: 1px solid !important;
+    padding-left: 40px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.form-inline button {
+    display: flex;
+    flex-direction: row;
+    background-color: tan;
+    border-color: rgb(202, 193, 175);
+    border-width: 1px;
+    border-radius: 30px;
+}
+
+.form-inline .fa-search {
+    color: rgb(148, 104, 24);
+}
+
+@media only screen and (max-width: 700px) {
+    .form-inline {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .form-inline input {
+        width: 150px;
+    }
+    
+    .form-inline button {
+        display: flex;
+        flex-direction: row;
+        border-radius: 30px;
+    }
+} 
+
+/*------Toggler------*/
+.navbar-toggler-icon {
+    border: 1px gray !important;
+}
+
+
+.fa-bars {
+    color:rgb(238, 129, 40);
+}
+
+/*------Links------*/
+.navbar-nav {
+    padding-top: 3px;
+    align-items: center;
+}
+
+.navbar-collapse ul li {
+    text-align: center;
+    cursor: pointer;
+    padding-right: 14px;
+}
+
+.navbar-collapse ul li a {
+    font-weight: bold;
+    color:rgb(233, 165, 76);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+                                /*-------------Jumbotron section-------------*/
+
+/*------Jumbotron------*/
+.jumbotron {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxhP3aNOIvjQ4DGkWGvUHbZ7QS9voQ1a-WfA&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 520px;
+    overflow: none;
+}
+
+/*------H1 tag-------*/
+.jumbotron h1 {
+    margin-top: 60px;
+}
+
+/*------P tag------*/
+.jumbotron p {
+    margin-bottom: 40px;
+}
+
+/*------Text------*/
+.em-text {
+    color: peru;
+}
+
+/*------App icon-------*/
+.jumbotron .app-btn {
+    width: 140px;
+    margin-right: 30px;
+}
+
+/*-------Image------*/
+.showcase-img {
+    display: flex;
+}
+
+@media only screen and (max-width: 1300px) {
+    .showcase-img {
+        display: none;
+    }
+}
+
+                                  /*---------------Middle Page--------------*/
+
+/*-------section-------*/
+section {
+    padding: 40px 0 40px 0;
+}
+
+/*-------Images-------*/
+.demo {
+    width: 100%;
+    border: 1px;
+    padding: 3px;
+}
+
+section .btn-default {
+    border: grey solid 2px;
+}
+
+
+                                        /*---------------Feaatures section--------------*/
+
+ /*-------Features------*/
+#features {
+    background-color: peru;
+    color: #fff;
+    padding: 40px;
+    overflow: auto;
+}
+
+/*------LIST-------*/
+#features ul li {
+    font-size: 22px;
+    list-style: none;
+    line-height: 2m;
+    padding-left: 15px;
+}
+
+
+                                            /*---------------Footer Page--------------*/
+footer {
+    background-color: grey;
+    color: #fff;
+    padding: 30px 0 20px 0;
+}
+
+footer li {
+    float: left;
+    padding: 0 10px 0 10px;
+    list-style: none;
+}
+
+footer a {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
